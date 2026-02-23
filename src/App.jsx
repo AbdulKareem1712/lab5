@@ -1,22 +1,11 @@
-import { useState } from 'react'
-import SignIn from './components/SignIn'
-import './App.css'
-import AuthContainer from './components/AuthContainer'
-import SignUp from './components/SignUp'
-import Dashboard from './components/Dashboard'
+import AuthContainer from "./components/AuthContainer";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    
-    <Dashboard/>
-      <SignUp/>
-    <AuthContainer/>
-    <SignIn/>
-      </>
-  )
+    <div>
+      <AuthContainer />
+    </div>
+  );
 }
 
-export default App
+export default App;
